@@ -947,5 +947,16 @@
   "946": "Failed to deserialize errors.",
   "947": "Expected `sendErrorsToBrowser` to be defined in renderOpts.",
   "948": "Failed to serialize errors.",
-  "949": "Route %s errored during %s. These errors are normally ignored and may not prevent the route from prerendering but are logged here because build debugging is enabled.\n          \nOriginal Error: %s"
+  "949": "Route %s errored during %s. These errors are normally ignored and may not prevent the route from prerendering but are logged here because build debugging is enabled.\n          \nOriginal Error: %s",
+  "950": "Cannot start capturing immediates again without finishing the previous task (state: %s)",
+  "951": "An unexpected error occurred while executing immediates",
+  "952": "performWork can only be called while waiting (state: %s)",
+  "953": "Cannot stop capturing immediates before execution is finished (state: %s)",
+  "954": "Expected all captured immediates to have been executed (state: %s)",
+  "955": "scheduleWorkAfterTicksAndMicrotasks can only be called while waiting (state: %s)",
+  "956": "DANGEROUSLY_runPendingImmediatesAfterCurrentTask cannot be called in the edge runtime",
+  "957": "The \"callback\" argument must be of type function. Received %s",
+  "958": "expectNoPendingImmediates cannot be called in the edge runtime",
+  "959": "Fast setImmediate is not available in the edge runtime.",
+  "960": "An unexpected error occurred while starting to capture immediates"
 }
